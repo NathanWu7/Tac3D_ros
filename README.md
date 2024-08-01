@@ -7,15 +7,15 @@ catkin_make
 ## Send messages
 Topic: tactile_frame
 <br>Message:
-string SN
-uint32 index
-float64 sendTimestamp
-float64 recvTimestamp
-float64[1200] Positions
-float64[1200] Displacements
-float64[1200] Forces
-float64[3] ResultantForce
-float64[3] ResultantMoment
+<br>string SN
+<br>uint32 index
+<br>float64 sendTimestamp
+<br>float64 recvTimestamp
+<br>float64[1200] Positions   #flatten
+<br>float64[1200] Displacements  #flatten
+<br>float64[1200] Forces         #flatten
+<br>float64[3] ResultantForce
+<br>float64[3] ResultantMoment
 ```python
 python3 Tac3D_ros/src/tactile_msgs/src/PyTac3D_ros.py
 ```
