@@ -6,7 +6,7 @@ catkin_make
 ```
 ## Send messages
 Topic: tactile_frame
-Message:
+<br>Message:
 string SN
 uint32 index
 float64 sendTimestamp
