@@ -1,0 +1,9 @@
+string SN
+uint32 index
+float64 sendTimestamp
+float64 recvTimestamp
+float64[1200] Positions
+float64[1200] Displacements
+float64[1200] Forces
+float64[3] ResultantForce
+float64[3] ResultantMoment
