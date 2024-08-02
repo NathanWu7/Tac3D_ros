@@ -6,7 +6,8 @@ catkin_make
 ```
 ## Send messages
 Topic: tactile_frame
-<br>Message:
+<br>Single tactile sensor:
+<br>Message: Frame.msg
 <br>string SN
 <br>uint32 index
 <br>float64 sendTimestamp
@@ -18,4 +19,12 @@ Topic: tactile_frame
 <br>float64[3] ResultantMoment
 ```python
 python3 Tac3D_ros/src/tactile_msgs/src/PyTac3D_ros.py
+```
+<br>Double tactile sensor:
+<br>Message: TactileMsg.msg
+<br>std_msgs/Header header
+<br>Frame left
+<br>Frame right
+```python
+python3 Tac3D_ros/src/tactile_msgs/src/PyTac3D_double_ros.py
 ```
