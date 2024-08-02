@@ -1,5 +1,5 @@
 # Tac3D_ros
-Ros1 message support for tactile sensor Tac3D
+Ros1 message support for tactile sensor Tac3D:<https://arxiv.org/abs/2202.06211>
 ## Compile
 ```bash
 catkin_make
