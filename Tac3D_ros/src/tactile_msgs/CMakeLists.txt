@@ -52,6 +52,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   Frame.msg
+  TactileMsg.msg
 )
 
 ## Generate services in the 'srv' folder
